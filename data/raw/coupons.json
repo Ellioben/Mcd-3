@@ -1,0 +1,40 @@
+{
+  "_source": "available-coupons",
+  "_fetchedAt": "2026-10-24T13:35:00+08:00",
+  "_note": "接口只返回「券标题 + 券图 + 状态」，不返回 productCode、券后价、门槛、有效期。下面的 targetCode / couponPrice / condition 是从标题文本解析并结合菜单价格人工确认的派生字段，已用 resolved 标记可信度。",
+  "coupons": [
+    {
+      "title": "免费脆薯饼",
+      "status": "可领取",
+      "image": "https://img.mcd.cn/cms/images/858839306b7cca66.png",
+      "resolved": true,
+      "targetCode": "521741",
+      "targetName": "脆薯饼",
+      "couponPrice": 0,
+      "condition": null,
+      "_how": "标题写明商品名，菜单里 521741 即脆薯饼，券后 0 元"
+    },
+    {
+      "title": "11.9元麦辣鸡腿堡",
+      "status": "可领取",
+      "image": "https://mcd-portal-prod-cos1-1300270282.cos.ap-shanghai.myqcloud.com/campaign/prod/campaign-offer/coupon/428e50a23a7243b497691f44f55df3a6/%E9%BA%A6%E8%BE%A3%E9%B8%A1%E8%85%BF%E5%A0%A1600x600.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDCD6mEcX25tVrjNxiPvEICas0uXyBKIBs%26q-sign-time%3D1792390870%3B1950070870%26q-key-time%3D1792390870%3B1950070870%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D9335556a091f7531c195c391c1c4a474ab561030",
+      "resolved": true,
+      "targetCode": "1440",
+      "targetName": "麦辣鸡腿汉堡",
+      "couponPrice": 11.9,
+      "condition": null,
+      "_how": "标题写明 11.9 元 + 商品名，1440 现价 22.5，券省 10.6"
+    },
+    {
+      "title": "19.9元王牌炸鸡任选2",
+      "status": "可领取",
+      "image": "https://mcd-portal-prod-cos1-1300270282.cos.ap-shanghai.myqcloud.com/campaign/prod/campaign-offer/coupon/3d8aad332ed94030aca790068eb56054/%E7%8E%8B%E7%89%8C%E7%82%B8%E9%B8%A1%E4%BB%BB%E9%80%892%20600x600.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDCD6mEcX25tVrjNxiPvEICas0uXyBKIBs%26q-sign-time%3D1792390820%3B1950070820%26q-key-time%3D1792390820%3B1950070820%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D8071268ddd60571549998be5267e1c7b0b71284a",
+      "resolved": false,
+      "targetCode": "1401",
+      "targetName": "麦乐鸡",
+      "couponPrice": null,
+      "condition": "任选2份",
+      "_how": "标题只写「王牌炸鸡任选2」，未指明具体 SKU；菜单里炸鸡类有 1401 麦乐鸡 / 1700 麦辣鸡翅 / 9900005432 麦麦脆汁鸡1块 / 521156 那么大鸡排。targetCode 为猜测，couponPrice 无法确定（19.9 是 2 份合计价）"
+    }
+  ]
+}
