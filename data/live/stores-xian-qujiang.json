@@ -1,0 +1,129 @@
+{
+ "success": true,
+ "code": 200,
+ "message": "请求成功",
+ "datetime": "2026-10-25 14:12:07",
+ "traceId": "506b82084ca6179a47fb87d041d3f867",
+ "data": [
+  {
+   "storeCode": "1960632",
+   "storeName": "麦当劳西安金地广场餐厅",
+   "address": "曲江新区曲江池东路999号金地广场B1层FB101-1号",
+   "distance": 856,
+   "businessStatus": true,
+   "businessStartTime": "06:30",
+   "businessEndTime": "23:00",
+   "longitude": 0,
+   "latitude": 0,
+   "reservation": true,
+   "reservationTimeOptions": [
+    {
+     "date": "2026-10-25",
+     "today": true,
+     "reservationOptionText": "下午茶(14:44至16:45)，夜市(17:14至21:45)，宵夜(22:14至22:46)"
+    },
+    {
+     "date": "2026-10-26",
+     "today": false,
+     "reservationOptionText": "早餐(06:44至10:15)，午餐(10:44至14:15)，下午茶(14:44至16:45)，夜市(17:14至21:45)，宵夜(22:14至22:46)"
+    }
+   ]
+  },
+  {
+   "storeCode": "1960682",
+   "storeName": "麦当劳西安万科翡翠国际餐厅",
+   "address": "曲江龙游南路中国铁建万科翡翠国际57幢1单元1层10101号房、10102号房",
+   "distance": 960,
+   "businessStatus": true,
+   "businessStartTime": "07:00",
+   "businessEndTime": "23:00",
+   "longitude": 0,
+   "latitude": 0,
+   "reservation": true,
+   "reservationTimeOptions": [
+    {
+     "date": "2026-10-25",
+     "today": true,
+     "reservationOptionText": "下午茶(14:44至16:45)，夜市(17:14至21:45)，宵夜(22:14至22:46)"
+    },
+    {
+     "date": "2026-10-26",
+     "today": false,
+     "reservationOptionText": "早餐(07:14至10:15)，午餐(10:44至14:15)，下午茶(14:44至16:45)，夜市(17:14至21:45)，宵夜(22:14至22:46)"
+    }
+   ]
+  },
+  {
+   "storeCode": "1960736",
+   "storeName": "麦当劳西安曲江龙湖底商(大丰真境)餐厅",
+   "address": "曲江新区曲江大道龙湖紫都C座塔楼一层1001、二层2001铺位",
+   "distance": 1351,
+   "businessStatus": true,
+   "businessStartTime": "07:00",
+   "businessEndTime": "23:00",
+   "longitude": 0,
+   "latitude": 0,
+   "reservation": true,
+   "reservationTimeOptions": [
+    {
+     "date": "2026-10-25",
+     "today": true,
+     "reservationOptionText": "下午茶(14:44至16:45)，夜市(17:14至21:45)，宵夜(22:14至22:46)"
+    },
+    {
+     "date": "2026-10-26",
+     "today": false,
+     "reservationOptionText": "早餐(07:14至10:15)，午餐(10:44至14:15)，下午茶(14:44至16:45)，夜市(17:14至21:45)，宵夜(22:14至22:46)"
+    }
+   ]
+  },
+  {
+   "storeCode": "1960721",
+   "storeName": "麦当劳西安曲江嘉德汇餐厅",
+   "address": "公田一路411号",
+   "distance": 3352,
+   "businessStatus": true,
+   "businessStartTime": "07:00",
+   "businessEndTime": "23:00",
+   "longitude": 0,
+   "latitude": 0,
+   "reservation": true,
+   "reservationTimeOptions": [
+    {
+     "date": "2026-10-25",
+     "today": true,
+     "reservationOptionText": "下午茶(14:44至16:45)，夜市(17:14至21:45)，宵夜(22:14至22:46)"
+    },
+    {
+     "date": "2026-10-26",
+     "today": false,
+     "reservationOptionText": "早餐(07:14至10:15)，午餐(10:44至14:15)，下午茶(14:44至16:45)，夜市(17:14至21:45)，宵夜(22:14至22:46)"
+    }
+   ]
+  },
+  {
+   "storeCode": "1960674",
+   "storeName": "麦当劳西安大雁塔北广场餐厅",
+   "address": "大雁塔北广场西侧D栋",
+   "distance": 3494,
+   "businessStatus": true,
+   "businessStartTime": "07:00",
+   "businessEndTime": "23:00",
+   "longitude": 0,
+   "latitude": 0,
+   "reservation": true,
+   "reservationTimeOptions": [
+    {
+     "date": "2026-10-25",
+     "today": true,
+     "reservationOptionText": "下午茶(14:44至16:45)，夜市(17:14至21:45)，宵夜(22:14至22:46)"
+    },
+    {
+     "date": "2026-10-26",
+     "today": false,
+     "reservationOptionText": "早餐(07:14至10:15)，午餐(10:44至14:15)，下午茶(14:44至16:45)，夜市(17:14至21:45)，宵夜(22:14至22:46)"
+    }
+   ]
+  }
+ ]
+}
